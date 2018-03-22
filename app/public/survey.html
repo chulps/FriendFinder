@@ -15,6 +15,7 @@
                     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(255,151,166,1) 50%, rgba(252,176,69,1) 100%);
                     color: white;
                     text-align: center;
+                    padding-top: 25px;
                 }
                 
                 .jumbotron {
@@ -22,7 +23,7 @@
                 }
             
                 h1, .h1 {
-                font-size: 36px;
+                font-size: 36pt;
                 font-weight: lighter;
                 margin-bottom: 50px;
                 color: white;
@@ -93,9 +94,11 @@
 
 <body>
     <div class="container">
+        <div class="col-md-2 col-sm-1 col-xs-0"></div>
+        <div class="col-md-8 col-sm-10 col-xs-12">
         <h1>Survey Questions</h1>
         <hr>
-        <h2><strong>About You</strong></h2>
+        <h2>About You</h2>
         <p>Please answer all questions to the best of your ability.</p>
         <h2>Name (Required)</h2>
         <input type="text" name="" id="name" class="form-control" required>
@@ -295,6 +298,15 @@
                     <a href="/api/friends">API Friends List</a> | <a href="https://github.com/chulps/FriendFinder">GitHub Repo</a>
                 </p>
         </footer>
+        </div>
+        </div>
+        <div class="col-md-2 col-sm-1 col-xs-0"></div>
+       
+
+        
+        
+
+
     </div>
     <script type="text/javascript">
     // Listener for submit button click
